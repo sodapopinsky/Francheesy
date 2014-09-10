@@ -16,9 +16,9 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
-Route::get('/index', function()
+Route::get('/employees', function()
 {
-	return View::make('index');
+	return View::make('employees');
 });
 
 
