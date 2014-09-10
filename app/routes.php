@@ -21,4 +21,28 @@ Route::get('/employees', function()
 	return View::make('employees');
 });
 
+Route::get('/schedule', function()
+{
+	return View::make('schedule');
+});
+
+Route::get('/checklists', function()
+{
+	return View::make('checklists');
+});
+
+Route::get('/facebook', function()
+{
+	return View::make('facebook');
+});
+
+Route::get('/twitter', function()
+{
+	return View::make('twitter');
+});
+
+Route::get('/instagram', function()
+{
+	return View::make('instagram');
+});
 

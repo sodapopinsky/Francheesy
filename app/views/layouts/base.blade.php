@@ -21,6 +21,15 @@
 	<link href="assets/css/print.css" rel="stylesheet" type="text/css" media="print"/>
 	<!-- end: CSS -->
 	
+	<style>
+.navbar{
+	background-color:rgb(171,9,31);
+}
+
+.hidden-xs{
+	background-color:rgb(214,206,20);
+}
+	</style>
 
 	<!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
@@ -44,7 +53,7 @@
 
 
 	   	<!-- start: Header -->
-	<header class="navbar" style="background-color:rgb(171,9,31);">
+	<header class="navbar" >
 		<div class="container">
 			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".sidebar-nav.nav-collapse">
 			      <span class="icon-bar"></span>
@@ -52,14 +61,14 @@
 			      <span class="icon-bar"></span>
 			</button>
 			<a id="main-menu-toggle" class="hidden-xs open"><i class="fa fa-bars"></i></a>		
-			<a class="navbar-brand col-md-2 col-sm-1 col-xs-2" href="index.html"><span>Francheesy</span></a>
+			<a class="navbar-brand col-md-2 col-sm-1 col-xs-2" href=""><span>Francheesy</span></a>
 		
 	
         
 		<!-- start: Header Menu -->
         	<div class="nav-no-collapse header-nav">
 				<ul class="nav navbar-nav pull-right">
-					<li class="dropdown hidden-xs" style="background-color:rgb(214,206,20);">
+					<li class="dropdown hidden-xs">
 						<a class="btn dropdown-toggle" data-toggle="dropdown" href="index.html#" style="background-color:rgb(214,206,20);">
 							<i class="fa fa-warning"></i>
 							<span class="number">11</span>
@@ -103,16 +112,16 @@
 								
 				<div class="sidebar-nav nav-collapse collapse navbar-collapse">
 					<ul class="nav main-menu">
-						<li><a href="index.html"><i class="fa fa-user"></i><span class="hidden-sm text"> Employees</span></a></li>	
+						<li><a href="/employees"><i class="fa fa-user"></i><span class="hidden-sm text"> Employees</span></a></li>	
 
-	<li><a href="index.html"><i class="fa fa-calendar"></i><span class="hidden-sm text"> Schedule</span></a></li>
-						<li><a href="index.html"><i class="fa fa-check" ></i><span class="hidden-sm text"> Checklists</span></a></li>	
+	<li><a href="/schedule"><i class="fa fa-calendar"></i><span class="hidden-sm text"> Schedule</span></a></li>
+						<li><a href="/checklists"><i class="fa fa-check" ></i><span class="hidden-sm text"> Checklists</span></a></li>	
 
-						<li><a href="index.html"><i class="fa fa-facebook" style="position:realtive; top:10px;"></i><span class="hidden-sm text"> Facebook</span></a></li>
+						<li><a href="/facebook"><i class="fa fa-facebook" style="position:realtive; top:10px;"></i><span class="hidden-sm text"> Facebook</span></a></li>
 
-						<li><a href="index.html"><i class="fa fa-twitter"></i><span class="hidden-sm text"> Twitter</span></a></li>
+						<li><a href="/twitter"><i class="fa fa-twitter"></i><span class="hidden-sm text"> Twitter</span></a></li>
 
-						<li><a href="index.html"><i class="fa fa-instagram"></i><span class="hidden-sm text"> Instagram</span></a></li>
+						<li><a href="/instagram"><i class="fa fa-instagram"></i><span class="hidden-sm text"> Instagram</span></a></li>
 
 					</ul>
 				</div>
